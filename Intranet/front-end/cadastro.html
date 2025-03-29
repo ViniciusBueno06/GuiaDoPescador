@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<style>
+    body {
+        background-color: rgb(255, 255, 255);
+    }
+
+    .divLogo {
+        text-align: center;
+    }
+</style>
+
+<body>
+    <form action="">
+        <div class="container">
+            <div class="mx-auto content row m-5">
+                <!-- <div class="divLogo">
+            <img src="logo.png" alt="" class="logo">
+        </div> -->
+                <div class="col-6">
+                    <label for="" class="mb-2 form-label">Nome do peixe</label>
+                    <input type="text" id="inp_nomepeixe" class="form-control mb-3" minlength="1" required>
+
+                    <label for="" class="mb-2 form-label">Descrição</label>
+                    <input type="text" id="inp_desc" class="form-control mb-3" minlength="1" required>
+
+                    <label for="" class="mb-2 form-label">Isca preferida</label>
+                    <input type="text" id="inp_isca" class="form-control mb-3" minlength="1" required>
+
+                    <label for="" class="mb-2 form-label">Descrição de isca</label>
+                    <input type="text" id="inp_desc_isca" class="form-control mb-3" minlength="1" required>
+
+                    <label for="" class="mb-2 form-label">Local de pesca(ex: barranco, fundo do rio) </label>
+                    <input type="text" id="inp_local" class="form-control mb-3" minlength="1" required>
+
+                    <label for="" class="mb-2 form-label">Profundidade (ex: baixa profundidade)</label>
+                    <input type="text" id="inp_profundidade" class="form-control mb-3" minlength="1" required>
+
+                    <label for="" class="mb-2 form-label">Técnica (ex: pesca com bóia)</label>
+                    <input type="text" id="inp_tecnica" class="form-control mb-3" minlength="3" minlength="1" required>
+
+                </div>
+                <div class="col-6">
+                    <label for="" class="mb-2 form-label">Imagem do peixe (link)</label>
+                    <input type="text" id="inp_imagem" class="form-control mb-3" minlength="1" required>
+
+                    <label for="" class="mb-2 form-label">Média de peso</label>
+                    <input type="text" id="inp_peso" class="form-control mb-3" minlength="1" required>
+
+                    <label for="" class="mb-2 form-label">Média de tamanho</label>
+                    <input type="text" id="inp_tamanho" class="form-control mb-3" minlength="1" required>
+
+                    <label for="" class="mb-2 form-label">Época (ex:primavera)</label>
+                    <input type="text" id="inp_epoca" class="form-control mb-3" minlength="1" required>
+
+                    <label for="" class="mb-2 form-label">Horário(ex madrugada, dia, noite)</label>
+                    <input type="text" id="inp_horario" class="form-control mb-3" minlength="1" required>
+
+                    <label for="" class="mb-2 form-label">Anzol</label>
+                    <input type="text" id="inp_anzol" class="form-control mb-3" minlength="1" required>
+
+                    <div class="divLogo">
+                        <button id="btn_acao_add" style="margin-top: 30px;"
+                            class="cen mx-auto btn btn-primary rounded-1 w-100 ">Adicionar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <script src="cadastro.js"></script>
+</body>
+
+</html>

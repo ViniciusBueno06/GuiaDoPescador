@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IntranetGDP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <style>
+        body {
+            background-color: rgb(255, 255, 255);
+        }
+
+        label {
+            color: rgb(44, 44, 44)
+        }
+
+        .logo {
+            width: 250px;
+
+        }
+
+        .divLogo {
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="d-flex justify-content-center align-items-center" style="margin-top: 100px;">
+        <div class="mx-auto content w-25">
+            <div class="divLogo">
+                <img src="logo.png" alt="" class="logo">
+            </div>
+            <label for="" class="mb-2 form-label">Login</label>
+            <input type="text" id="inp_user" class="form-control mb-3" placeholder="Digite o usuário">
+            <label for="" class="mb-2 form-label">Senha</label>
+            <input type="password" id="inp_senha" class="form-control mb-3" placeholder="Senha">
+            <div class="divLogo">
+                <button id="btn_acao_login" class="cen mx-auto btn btn-primary rounded-1 col-5">Login</button>
+            </div>
+        </div>
+    </div>
+    <script src="/front-end/script.js"></script>
+</body>
+
+</html>
