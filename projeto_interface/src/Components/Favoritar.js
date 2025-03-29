@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { TouchableOpacity, Text } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
-ip_maquina = '192.168.1.4'
+ip_maquina = ''  //ip da maquina
 
 const Favoritar = (props) => {
   useEffect(() => {

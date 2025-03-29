@@ -8,7 +8,7 @@ import axios from 'axios';
 const largura = Dimensions.get('screen').width;
 const altura = Dimensions.get('screen').height;
 
-ip_maquina = '192.168.1.4'
+ip_maquina = ''  //ip da maquina
 
 const BemVindo = ({ navigation, route }) => {
   const { user } = route.params;

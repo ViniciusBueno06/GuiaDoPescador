@@ -4,7 +4,7 @@ import axios from 'axios';
 import AwesomeAlert from 'react-native-awesome-alerts';
 
 // IP da máquina para chamadas API
-const ip_maquina = '192.168.1.4';
+const ip_maquina = '';  //ip da maquina
 
 // Definindo um objeto estático para as imagens de perfil
 const imagensPredefinidas = {

@@ -4,7 +4,7 @@ import { Dimensions } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
 import { useFocusEffect } from '@react-navigation/native';
 
-const ip_maquina = '192.168.1.4';
+const ip_maquina = '';  //ip da maquina
 const largura = Dimensions.get('screen').width;
 
 const TelaFavoritos = ({ route, navigation }) => {

@@ -15,7 +15,7 @@ app.listen(porta, () => {
 
 // criar uma pool de conexão
 const pool = mysql.createPool({
-    host: `10.111.9.49`,
+    host: ``, //ip da maquina
     user: `root`,
     password: '',
     database: `db_node`,

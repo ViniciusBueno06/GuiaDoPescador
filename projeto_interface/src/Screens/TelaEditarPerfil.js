@@ -3,7 +3,7 @@ import { View, Text, TextInput, TouchableOpacity, StyleSheet } from 'react-nativ
 import axios from 'axios';
 import AwesomeAlert from 'react-native-awesome-alerts';
 
-const ip_maquina = '192.168.1.4';
+const ip_maquina = '';  //ip da maquina
 
 const TelaEditarPerfil = ({ navigation, route }) => {
   const { user } = route.params;

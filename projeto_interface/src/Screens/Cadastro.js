@@ -6,7 +6,7 @@ import AwesomeAlert from 'react-native-awesome-alerts';
 const logo = require('../../assets/logo.png');
 const largura = Dimensions.get('screen').width;
 const altura = Dimensions.get('screen').height;
-const ip_maquina = '192.168.1.4';
+const ip_maquina = ''  //ip da maquina;
 
 export default function Cadastro({ navigation }) {
   const [nome, setNome] = useState('');

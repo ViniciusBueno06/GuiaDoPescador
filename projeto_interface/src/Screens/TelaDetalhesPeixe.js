@@ -8,7 +8,7 @@ import Favoritar from '../Components/Favoritar';
 
 const largura = Dimensions.get('screen').width
 const altura = Dimensions.get('screen').height
-const ip_maquina = '192.168.1.4';
+const ip_maquina = '';  //ip da maquina
 
 const TelaDetalhesPeixe = ({ route }) => {
 
